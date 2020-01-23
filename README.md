@@ -9,3 +9,4 @@ Instructions:
 2. Modify the cron-file.txt file to point to your qsub_touch.sh file
 3. Install the crontab from the cron file (NOTE: this will destroy existing crontab entries!): `crontab cron-file.txt`
 4. Verify the crontab was installed: `crontab -l`
+5. Modify the `cron-file.txt` to contain the path to the directory. Note that $HOME will lead to your home directory.
