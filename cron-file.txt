@@ -1,1 +1,1 @@
-@weekly /u/home/b/blhill/touch/qsub_touch.sh
+@weekly $HOME/touch/qsub_touch.sh
